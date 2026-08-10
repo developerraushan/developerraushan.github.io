@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raushan Kashyap — AI / ML Engineer</title>
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Light Background Blobs -->
+  <div class="ambient-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-symbol">⚡</span>
+        <span class="logo-text">Raushan<span class="logo-dot">.ai</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-btn">Connect</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="about">
+    <div class="hero-container">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        <span>Building Intelligence at Scale</span>
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="text-gradient">Raushan Kashyap</span>
+      </h1>
+      <p class="hero-subtitle">
+        Co-Founder & CEO at <strong>Twixour</strong>. Deep Learning Practitioner specialized in custom Transformer architectures, Edge AI compilation, Computer Vision, and full-stack ML deployments.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span>Explore Projects</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <a href="https://github.com/developerraushan" target="_blank" rel="noopener" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects Showcase Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">Production-grade machine learning systems built, trained, and deployed end-to-end.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: TwixourGPT -->
+        <article class="project-card reveal">
+          <div class="card-badge">NLP / Edge AI</div>
+          <div class="card-header">
+            <h3>TwixourGPT</h3>
+            <span class="tech-tag">PyTorch • ONNX • WebAssembly</span>
+          </div>
+          <p class="card-text">
+            A decoder-only Autoregressive Transformer built ground-up in PyTorch, compiled to WebAssembly via ONNX, running 100% serverless inside client browsers.
+          </p>
+          <ul class="card-features">
+            <li>Multi-Head Attention & Causal Masking</li>
+            <li>In-Browser Token Streaming with ONNX Runtime Web</li>
+            <li>Instruction Fine-Tuned Dialogue Engine</li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://developerraushan.github.io/TwixourGPT/" target="_blank" rel="noopener" class="card-link btn-live">
+              <span>Live App</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+            <a href="https://github.com/developerraushan/TwixourGPT" target="_blank" rel="noopener" class="card-link btn-repo">GitHub</a>
+          </div>
+        </article>
+
+        <!-- Project 2: MNIST Digit Recognizer -->
+        <article class="project-card reveal">
+          <div class="card-badge">Computer Vision</div>
+          <div class="card-header">
+            <h3>MNIST Digit Recognizer</h3>
+            <span class="tech-tag">PyTorch • CNN • Interactive Canvas</span>
+          </div>
+          <p class="card-text">
+            Convolutional Neural Network (CNN) trained on handwritten digits, integrated with a live interactive HTML5 drawing canvas for real-time digit recognition.
+          </p>
+          <ul class="card-features">
+            <li>Feature extraction via Conv2D & MaxPool2D</li>
+            <li>Interactive HTML5 Canvas Inference</li>
+            <li>Real-time Probability Output Distribution</li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://developerraushan.github.io/mnist-digit-recognizer/" target="_blank" rel="noopener" class="card-link btn-live">
+              <span>Live App</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+            <a href="https://github.com/developerraushan/mnist-digit-recognizer" target="_blank" rel="noopener" class="card-link btn-repo">GitHub</a>
+          </div>
+        </article>
+
+        <!-- Project 3: House Price Predictor -->
+        <article class="project-card reveal">
+          <div class="card-badge">Tabular ML</div>
+          <div class="card-header">
+            <h3>House Price Predictor</h3>
+            <span class="tech-tag">Scikit-Learn • XGBoost • FastAPI</span>
+          </div>
+          <p class="card-text">
+            End-to-end regression pipeline analyzing structural feature vectors to estimate real estate valuations with high fidelity and zero variance leakage.
+          </p>
+          <ul class="card-features">
+            <li>Feature Engineering & Standard Scaling</li>
+            <li>Cross-Validated XGBoost Optimization</li>
+            <li>Interactive Valuation Input Dashboard</li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://developerraushan.github.io/HousePredictor/" target="_blank" rel="noopener" class="card-link btn-live">
+              <span>Live App</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+            <a href="https://github.com/developerraushan/HousePredictor" target="_blank" rel="noopener" class="card-link btn-repo">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section bg-glass">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Certifications & Credentials</h2>
+        <p class="section-desc">Formal training and specialization credentials in Deep Learning, LLMs, and Mathematics.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- 1. Machine Learning Specialization -->
+        <div class="skill-category reveal">
+          <h4>Machine Learning Specialization</h4>
+          <p><strong>DeepLearning.AI & Stanford University</strong></p>
+          <a href="https://coursera.org/share/f595eb731888912abe94f4706bf03daa" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 2. PyTorch: Fundamentals -->
+        <div class="skill-category reveal">
+          <h4>PyTorch: Fundamentals</h4>
+          <p><strong>DeepLearning.AI</strong> • ID: ZECUXOT33YNP</p>
+          <a href="https://coursera.org/share/1cbb48f641cec5f3cafc053bcf80cad5" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 3. Generative AI with Large Language Models -->
+        <div class="skill-category reveal">
+          <h4>Generative AI with Large Language Models</h4>
+          <p><strong>AWS & DeepLearning.AI</strong> • ID: 1VO603W98DPV</p>
+          <a href="https://coursera.org/share/2f752d3f0dac0e4c017664947a7d8c48" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 4. Unsupervised Learning, Recommenders, RL -->
+        <div class="skill-category reveal">
+          <h4>Unsupervised Learning, Recommenders, Reinforcement Learning</h4>
+          <p><strong>Stanford University</strong> • ID: 4N1CCQGCTNHO</p>
+          <a href="https://coursera.org/share/4260927c0f3dcb573f2d33ba246cfa97" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 5. Advanced Learning Algorithms -->
+        <div class="skill-category reveal">
+          <h4>Advanced Learning Algorithms</h4>
+          <p><strong>DeepLearning.AI</strong> • ID: TI66O2KWKZOJ</p>
+          <a href="https://coursera.org/share/68104eb49d4a2b28a693e3fee7809bc6" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 6. Supervised Machine Learning -->
+        <div class="skill-category reveal">
+          <h4>Supervised Machine Learning: Regression & Classification</h4>
+          <p><strong>Stanford & DeepLearning.AI</strong> • ID: 4YDUKU9OXV9U</p>
+          <a href="https://coursera.org/share/3bb1c5a2551be390e4dcc80b8db9c82f" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 7. Build and Train an LLM with JAX -->
+        <div class="skill-category reveal">
+          <h4>Build and Train an LLM with JAX</h4>
+          <p><strong>DeepLearning.AI</strong> • ID: 7d2f656f-5396-4c22-b3a2-fc60bb921e89</p>
+          <a href="https://coursera.org/verify/7d2f656f-5396-4c22-b3a2-fc60bb921e89" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 8. AI Agents for Image and Video Generation -->
+        <div class="skill-category reveal">
+          <h4>AI Agents for Image and Video Generation</h4>
+          <p><strong>DeepLearning.AI</strong> • ID: f014d51e-3970-4379-9f53-4505dba3371f</p>
+          <a href="https://coursera.org/verify/f014d51e-3970-4379-9f53-4505dba3371f" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 9. Linear Algebra for ML & Data Science -->
+        <div class="skill-category reveal">
+          <h4>Linear Algebra for Machine Learning and Data Science</h4>
+          <p><strong>DeepLearning.AI</strong> • ID: 72074010-102a-4e40-82b7-47da48e9f8e1</p>
+          <a href="https://coursera.org/verify/72074010-102a-4e40-82b7-47da48e9f8e1" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+
+        <!-- 10. NumPy and Pandas Basics -->
+        <div class="skill-category reveal">
+          <h4>NumPy and Pandas Basics for Future Data Scientists</h4>
+          <p><strong>University of Michigan</strong> • ID: LJWGD6CS53X1</p>
+          <a href="https://coursera.org/verify/LJWGD6CS53X1" target="_blank" rel="noopener" class="card-link btn-repo" style="margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>Verify Credential</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-desc">Core competencies across deep learning, backend architecture, and deployment.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h4>Deep Learning & AI</h4>
+          <p>PyTorch, JAX, Transformers, ONNX, CNNs, Autoregressive Models, Reinforcement Learning, Tokenization</p>
+        </div>
+        <div class="skill-category reveal">
+          <h4>Languages & Libraries</h4>
+          <p>Python, NumPy, Pandas, Scikit-Learn, JavaScript (ES6+), HTML5/CSS3, SQL</p>
+        </div>
+        <div class="skill-category reveal">
+          <h4>Deployment & Tools</h4>
+          <p>ONNX Runtime WebAssembly, AWS, Git, GitHub Actions, Docker, Linux, Jupyter, VS Code</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <h3>Raushan Kashyap</h3>
+        <p>Democratizing technology education & building frontier AI systems.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/developerraushan" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/develraushan" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:developerraushan@gmail.com">Email Me</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Raushan Kashyap • Hosted on <strong>develraushan.cloud</strong></p>
+    </div>
+  </footer>
+
+  <script src="logic.js"></script>
+</body>
+</html>
